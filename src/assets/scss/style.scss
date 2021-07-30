@@ -277,7 +277,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 } 
 
 .smoothies__conteiner {
-    padding-top: 98px;
+    padding: 100px 0 123px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -296,10 +296,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 .smoothies__content{
     display: flex;
     justify-content: center;
-    padding-top: 61px;
     flex-wrap: wrap;
     max-width: 1000px;
-    padding-bottom: 120px;
 }
 
 
@@ -314,7 +312,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     flex-basis: 25%;
     border-left: 2px solid #f6edde;
     border-top: 2px solid #f6edde;
-    padding-bottom: 100px;
 }
 
 .smoothies__cards:first-child {
@@ -322,7 +319,6 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 .smoothies__cards:nth-child(-n+4) {
     border-top: none;
-    padding-bottom: 30px;
 }
 
 .smoothies__cards:nth-child(5) {
@@ -330,12 +326,8 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 }
 
 .smoothies__cards:nth-child(n+5) {
-    padding-top: 115px;
+    padding-top: 77px;
 }
-
-
-
-
 
 .smoothies__caption{
     font-family: Muli;
@@ -344,7 +336,7 @@ h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
     font-weight: 800;
     letter-spacing: -0.02em;
     color: #f2612d;    
-    padding-top: 30px;
+    padding-top: 35px;
     padding-bottom: 30px;
 }
 
