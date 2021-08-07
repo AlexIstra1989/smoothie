@@ -924,6 +924,8 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 60px; }
   .about__content {
     align-items: center; }
+  .about__btn {
+    margin-bottom: 40px; }
   .story__conteiner {
     flex-wrap: wrap; }
   .story__box {
