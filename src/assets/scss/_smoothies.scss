@@ -1,0 +1,61 @@
+.smoothies__conteiner {
+    margin-bottom: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.smoothies__title {
+    
+}
+
+.smoothies__text{
+    text-align: center;
+    max-width: 810px;
+    margin: 50px auto 70px;
+}
+
+.smoothies__content{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
+
+.smoothies__cards {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex: 1;
+    flex-basis: 25%;
+    border-left: 2px solid #f6edde;
+    border-top: 2px solid #f6edde;
+}
+
+.smoothies__cards:first-child {
+    border-left: none;
+}
+.smoothies__cards:nth-child(-n+4) {
+    border-top: none;
+}
+
+.smoothies__cards:nth-child(5) {
+    border-left: none;
+}
+
+.smoothies__cards:nth-child(n+5) {
+    padding-top: 77px;
+}
+
+.smoothies__caption{
+    font-family: Muli;
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #f2612d;    
+    padding-top: 35px;
+    padding-bottom: 30px;
+}

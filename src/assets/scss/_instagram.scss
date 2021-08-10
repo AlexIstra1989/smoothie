@@ -1,0 +1,49 @@
+.instagram {
+    margin-bottom: 10px;
+}
+
+.instagram__title{
+    font-family: "Muli";
+    font-size: 24px;
+    line-height: 40px;
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    color: #0aa566;   
+    display: flex;
+    justify-content: center;
+}
+
+.instagram__title::before{
+    content: "";
+    background-image: url("../images/insta-green.png");
+    position: relative;
+    width: 26px;
+    height: 26px;
+    left: -10px;
+    top: 5px;
+}
+
+.instagram__box{
+    display: flex;
+    padding-top: 45px;  
+}
+
+.instagram__card{
+    
+    position: relative;
+}
+
+.instagram__card::after{
+    position: absolute;
+    content: "";
+    background-image: url("../images/insta-white.png");
+    width: 26px;
+    height: 26px;
+    right: 12px;
+    bottom: 15px;
+}
+
+.instagram__img{
+    height: auto;
+    object-fit: cover;
+}

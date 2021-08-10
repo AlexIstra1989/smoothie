@@ -1,0 +1,37 @@
+.personal__list{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.personal__list::after{
+    content: "";
+    width: 47px;
+    height: 2px;
+    background-color: #ffd68f;
+    opacity: 0.5;
+    position: absolute;
+    left: 200px;
+    top: 15px;
+}
+
+.personal__list-item{
+    margin-right: 45px;
+}
+
+.personal__list-item:last-child {
+    margin-right: 0;
+}
+
+.personal__counter{
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    right: -15px;
+    top: -12px;
+    border-radius: 50%;
+}

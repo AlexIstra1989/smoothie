@@ -1,0 +1,19 @@
+.menu__list{
+    display: flex;
+    align-items: center;
+}
+.menu__list-item{
+    color: white;
+    margin-right: 35px;
+    font-family: "Muli-bold";
+    font-size: 16px;
+    line-height: 40px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.02em;
+    color: white;
+}
+
+.menu__list-item:last-child {
+    margin-right: 0;
+}
