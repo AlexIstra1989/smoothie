@@ -22,7 +22,7 @@ body{
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
     font-family: "Muli-Regular", monospace;
-    overflow-x: hidden;
+    // overflow-x: hidden;
 }
 
 input,button,textarea{font-family: inherit;}
@@ -37,10 +37,13 @@ a{font-family: inherit; color: inherit; font-size: inherit;}
 img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size: inherit; font-weight: 400;}
 
+@import "./abstracts/vars";
+
 @font-face {
     font-family: "Muli-bold";
     src: url("../fonts/Muli-Bold.ttf") format("true type");
     font-weight: 700;
+    font-style: normal;
     font-display: swap;
 } 
 
